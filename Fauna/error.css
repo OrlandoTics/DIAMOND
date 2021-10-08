@@ -1,0 +1,36 @@
+*{
+    background-color: white;
+}
+.Back-page{
+    background-color:#41F546;
+    border: none;
+    border-radius: 60px;
+    width: 219px;
+    height: 30px;
+    font-family: Arial;
+    color: green;
+    text-decoration: none;
+    margin-bottom: 20px;
+  
+}
+.h1-alert{
+    
+    
+    padding: 0px;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 1000;
+    
+    
+}
+
+.Message-alert{
+    
+    
+    padding: 0px;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+
+    

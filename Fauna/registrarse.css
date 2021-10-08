@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: skyblue;*/
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    width: 819px;
+    background-color: rgb(43, 255, 114);
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+}
+
+.main {
+    width: 819px;
+    height: 562px;
+    box-shadow: 5px 5px 9px 3px green;
+}
+
+.registrarse {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Antonio', sans-serif;
+    border-color: green;
+}
+
+.container-formulario {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35px;
+
+}
+
+input {
+    text-align: center;
+    text-decoration: #41F546;
+    font-family: Arial;
+    color: green;
+    
+}
+
+.nombre, .apellidos {
+    width: 253px;
+    height: 25px;
+    margin-left: 25px;
+    font-family: Arial;
+    color: green;
+    border-color: green;
+    
+}
+
+.nomb-mascota {
+    height: 25px;
+    margin-left: 25px;
+    border-color: green;
+    font-family: Arial;
+    color: green;
+}
+
+.direccion {
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-family: Arial;
+    color: green;
+    border-color: green;
+}
+
+ .cuidados, .telefono {
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 253px;
+    height: 25px;
+    font-family: Arial;
+    color: green;
+    border-color: green;
+}
+
+.correo {
+    width: 679px;
+    height: 25px;
+    margin: 30px 0 30px 50px;
+    font-family: Arial;
+    color: green;
+    border-color: green;
+}
+
+.contraseña {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 289px;
+    height: 25px;
+    margin: auto;
+    font-family: Arial;
+    color: green;
+    border-color: green;
+}
+  
+.button {
+    background-color:#41F546;
+    border: none;
+    border-radius: 60px;
+    width: 219px;
+    height: 30px;
+    font-family: Arial;
+    color: green;
+    text-decoration: none;
+}
+  
